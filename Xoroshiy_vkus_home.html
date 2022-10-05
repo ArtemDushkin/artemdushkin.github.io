@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хороший Вкус</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+       .block {
+   display: flex;
+      justify-content: center;
+}
+nav {
+    margin: 50px;
+    text-align: center;
+}
+.a {
+        padding: 0px 30px;
+        font-style: italic;
+        color: cadetblue;
+        font-size: large;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+    }
+
+.flex-container > div{
+    padding: 20px;
+    width: 500px;
+    font-style: italic;
+    color: cadetblue;
+}
+h1{ 
+    text-align: center;
+    font-style: italic;
+    color: cadetblue;
+}
+h3{ 
+    text-align: center;
+    font-style: italic;
+    color: cadetblue;
+}
+.photo{
+    display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+    </style>
+</head>
+
+<body>
+  <div class="block">
+    <img src="Лого.JPG" alt="логотип" style="width: 500px; height: 500px; align-items:center;">
+   </div>
+<nav id="nav">
+    <a class="a" href="#C1" title="История о том, как я стала кондитером">Обо мне</a>
+    <a class="a" href="#C2" title="Выбери свой десерт">Меню</a>
+    <a class="a" href="#C3" title="Поможем выбрать тот самый">Вкусы</a>
+    <a class="a" href="#C4" title="выберите свой дизайн">Мои работы</a>
+    <a class="a" href="#C5" title="Все что нужно для связи">Заказать</a>
+</nav>  
+<div class="photo">
+    <img src="photo/1.jpg" alt="торт" style="width:300px;">
+    <img src="photo/2.jpg" alt="торт" style="width:300px;">
+    <img src="photo/10.jpg" alt="торт" style="width:300px;">
+    <img src="photo/6.jpg" alt="торт" style="width:300px;">
+    </div>
+    <hr>
+<H1 id="C1">Обо мне</H1>
+<div class="flex-container">
+    <div>
+        <img src="photo/Обо мне 1.jpg" alt="Обо мне" style="width:500px;">
+    </div>
+    <div style="width: 800px; text-align:center;"> 
+        <p>Все началось с моей свадьбы<br>Если же говорить о расстоянии между элементами, то тут можно использовать свойство margin, либо — можно изменить свойство display элементов на inline-block.  Благодаря этому добавляется небольшое пространство между элементами, лежащими на одном уровне, из-за того, что такие элементы рассматриваются как символы.
+                </p> 
+    <p style="font-style: italic;">Зарина Душкина</p>
+    </div>
+     </div>
+
+     <hr>
+ <H1 id="C2">Меню</H1>
+ <h3>Выбери десерт по вкусу</h3>
+ <div class="flex-container">
+    <div style="padding: 20px;">
+        <img src="photo/1.jpg" alt="торт" style="width:500px;">
+        <p style="width:300px;">Торты 1,5 кг минимум 1500 за кг</p>
+    </div>
+    <div>
+        <img src="photo/тарт.jpg" alt="тарт" style="width: 500px;">
+        <p style="width:300px;">Тарты по 300 за шт минимум 6 одного вкуса</p> 
+    </div>
+    <div>
+        <img src="photo/7.jpg" alt="Капкейки" style="width: 500px;>
+        <p style="width:300px;">Капкейки 200 за штуку минимум 6 одного вкуса</p> 
+    </div>
+    <div>
+        <img src="photo/Трайфлы.jpeg" alt="трайфлы" style="width: 500px; >
+        <p style="width:300px;">Трайфлы 250 за штуку минимум 4 одного вкуса</p> 
+    </div>
+    <div>
+        <img src="photo/конфеты.jpg" alt="конфеты"  style="width: 500px;>
+        <p style="width:300px;">Конфеты 80 за штуку, можно ассорти </p> 
+    </div>
+    <div>
+        <img src="photo/эклеры.jpeg" alt="эклеры" style="width: 500px;>
+        <p style="width:300px;">Эклеры 150 за штуку, можно ассорти </p> 
+    </div>
+ </div>
+ <hr>
+ <H1 id="C3">Вкусы</H1>
+ <div class="flex-container">
+    <div>
+        <img src="photo/Обо мне 1.jpg" alt="Обо мне" style="width:500px;">
+    </div>
+    <div style="width: 800px; text-align:center;"> 
+        <p>Шоколад</p> 
+        </div>
+     </div>
+</div>
+<div class="flex-container">
+    <div>
+        <img src="photo/Обо мне 1.jpg" alt="Обо мне" style="width:500px;">
+    </div>
+    <div style="width: 800px; text-align:center;"> 
+        <p>Шоколад</p> 
+        </div>
+     </div>
+</div>
+<div class="flex-container">
+    <div>
+        <img src="photo/Обо мне 1.jpg" alt="Обо мне" style="width:500px;">
+    </div>
+    <div style="width: 800px; text-align:center;"> 
+        <p>Шоколад</p> 
+        </div>
+     </div>
+</div>
+<H1 id="C4">Мои работы</H1>
+<H1 id="C5">Заказать</H1>
+<div class="flex-container">
+    <div>
+        <p>Наши контакты для Заказа</p>
+        <address style="font-size:20px">
+            Телефон +7 951 398 3254 <br>
+            Страничка в <a href="https://instagram.com/xoroshiy_vkus?igshid=YmMyMTA2M2Y=">Instagram</a>.<br>
+            Новосибирск, Проспект Дзержинского, д.34/2.<br>
+            Россия
+          </address>
+    </div>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3ffa91b92b774fbecf8ead929b86b0563570f591be687452ef6a77936eb73737&amp;width=467&amp;height=354&amp;lang=ru_RU&amp;scroll=true"></script></html>
+         </div>
+     </div>
+     <footer></footer>
+      </body>
+     </html>
